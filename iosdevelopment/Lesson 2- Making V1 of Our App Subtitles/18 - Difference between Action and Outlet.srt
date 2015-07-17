@@ -1,0 +1,14 @@
+0:00:00.330,0:00:02.358
+Here is your second question.
+
+0:00:02.358,0:00:05.730
+We've seen, two different types of connections we can make in X code.
+
+0:00:05.730,0:00:09.210
+One is called an action, and the other one is called an outlet.
+
+0:00:09.210,0:00:11.580
+I want you to think about the difference between an action and
+
+0:00:11.580,0:00:13.780
+outlet, and write down your explanations here.

@@ -1,0 +1,191 @@
+0:00:00.760,0:00:04.910
+Many of our students responded to this question by saying that the word outlet,
+
+0:00:04.910,0:00:07.260
+reminded them of the outlet in the wall.
+
+0:00:07.260,0:00:08.420
+Now this, as you know,
+
+0:00:08.420,0:00:12.560
+is a connection between electrical appliances at home, and the electric grid.
+
+0:00:13.630,0:00:17.830
+In much the same way, an outlet in iOS is also a connection,
+
+0:00:17.830,0:00:21.370
+it's a connection between our code, and something on the story board.
+
+0:00:22.630,0:00:24.490
+Let's see how this works in code.
+
+0:00:24.490,0:00:29.100
+So, to manage screen space, I will slide out the utility area, and
+
+0:00:29.100,0:00:32.369
+then go on to assistant editor, there.
+
+0:00:32.369,0:00:36.630
+Then I will hold down Ctrl on my keyboard, click on this label,
+
+0:00:36.630,0:00:40.430
+and then drag to the top of this class and let go.
+
+0:00:40.430,0:00:42.870
+Here I have a popup that I can fill in.
+
+0:00:42.870,0:00:47.920
+The type of this connection is an outlet, I will call it recordingInProgress.
+
+0:00:47.920,0:00:51.410
+The type of this label in iOS is called UILabel.
+
+0:00:51.410,0:00:53.460
+UI stands for User Interface.
+
+0:00:53.460,0:00:54.680
+And then I will hit Connect.
+
+0:00:56.380,0:01:00.590
+Okay, so I have some code here, that X code has written for me.
+
+0:01:00.590,0:01:02.630
+Let's unpack this line.
+
+0:01:02.630,0:01:06.120
+So, we created a variable called recordingInProgress,
+
+0:01:06.120,0:01:07.960
+the type of this variable is UILabel.
+
+0:01:09.310,0:01:12.770
+Here, we also see something called IBOutlet.
+
+0:01:12.770,0:01:15.070
+IB stands for interface builder.
+
+0:01:15.070,0:01:19.970
+And IBOutlet tells developers like us that hey, this variable is not an ordinary
+
+0:01:19.970,0:01:24.990
+variable, but is linked to the storyboard or the interface builder somehow.
+
+0:01:24.990,0:01:27.930
+Another thing to notice here is this keyword, weak.
+
+0:01:28.960,0:01:30.160
+What you should know about this for
+
+0:01:30.160,0:01:34.169
+now is that this keyword allows us to manage memory for our variable.
+
+0:01:35.180,0:01:36.950
+And weak as opposed to what?
+
+0:01:36.950,0:01:38.060
+Strong.
+
+0:01:38.060,0:01:40.940
+That's right, strong is also a keyword in iOS.
+
+0:01:40.940,0:01:44.770
+Both weak and strong help us manage memory for our variables.
+
+0:01:44.770,0:01:49.000
+The keyword means, hey I initialized that variable, so
+
+0:01:49.000,0:01:51.030
+keep it around till I don't need it anymore.
+
+0:01:52.460,0:01:57.210
+Weak on the other hand means, someone else created that variable, someone else.
+
+0:01:58.510,0:02:02.540
+And all I want to do is have a weak reference to that variable.
+
+0:02:02.540,0:02:06.410
+Now, if you want to learn more about these 2 keywords, weak and strong,
+
+0:02:06.410,0:02:10.490
+we found a great stack overflow page, that explains these two really well.
+
+0:02:10.490,0:02:12.850
+The link to that page is in the instructor notes.
+
+0:02:12.850,0:02:16.760
+So if I return to my code, I can see that we also have a bang or
+
+0:02:16.760,0:02:19.310
+an exclamation point here at the end.
+
+0:02:19.310,0:02:23.550
+Is this our way of demonstrating excitement for declaring this variable?
+
+0:02:23.550,0:02:24.620
+Not quite.
+
+0:02:24.620,0:02:28.160
+The real answer lies around in idea and swift called Optionals.
+
+0:02:29.240,0:02:32.810
+Swift allows us to declare a variable, like we have done here.
+
+0:02:32.810,0:02:35.710
+And it also allows us to not declare any value for
+
+0:02:35.710,0:02:39.890
+this variable in our code, or have its value be, Optional.
+
+0:02:39.890,0:02:43.230
+There is a document in the instructor notes that explains optionals and
+
+0:02:43.230,0:02:45.610
+these exclamation points in detail.
+
+0:02:45.610,0:02:49.290
+I encourage you to bookmark it for now, and read it later.
+
+0:02:49.290,0:02:53.280
+Okay, now that I have an outlet to this label in our code.
+
+0:02:53.280,0:02:57.280
+I can go back to this function, remember, this is the action that gets called
+
+0:02:57.280,0:03:02.260
+when we press the microphone button, and change the visibility of our label.
+
+0:03:03.260,0:03:08.210
+So I can say, recordingInProgress, and there is an auto complete.
+
+0:03:08.210,0:03:14.080
+I can say, it is no longer hidden, there.
+
+0:03:15.120,0:03:18.870
+So what I'm saying here, is that when this microphone button gets pressed,
+
+0:03:18.870,0:03:21.220
+this record audio function gets called.
+
+0:03:21.220,0:03:25.310
+And at that point I do not want this label to be hidden anymore.
+
+0:03:25.310,0:03:28.030
+All right, let me run this code and see what happens.
+
+0:03:28.030,0:03:31.930
+All right, so I don't see the label when the app first launches which is good.
+
+0:03:31.930,0:03:35.350
+And when I press the microphone button, the label starts to show.
+
+0:03:35.350,0:03:36.720
+That's great.
+
+0:03:36.720,0:03:41.267
+So, I'm going to go back to my code, slide out my debug area, and
+
+0:03:41.267,0:03:45.761
+then remove this one TODO, because we've already done it now.
+
+0:03:45.761,0:03:46.261
+Done.

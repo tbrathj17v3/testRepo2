@@ -1,0 +1,125 @@
+0:00:00.240,0:00:04.069
+So I searched Google for, how to center align a button vertically and
+
+0:00:04.069,0:00:05.860
+horizontally in an iPhone app.
+
+0:00:07.010,0:00:11.780
+And after a bit of browsing, I landed on this blog which addressed the issue.
+
+0:00:11.780,0:00:15.135
+By the way, a link to this blog is also available in the instructor notes.
+
+0:00:15.135,0:00:18.000
+There I learned that on my storyboard,
+
+0:00:18.000,0:00:22.930
+there is this super tiny button here at the bottom called Document Outline.
+
+0:00:22.930,0:00:26.440
+Let me just quickly go ahead and center my storyboard one more time.
+
+0:00:27.440,0:00:31.740
+Now, I know that there is a lot of new information here on the Document Outline,
+
+0:00:31.740,0:00:35.330
+but for now I only want to you to focus on the things that we've added already.
+
+0:00:35.330,0:00:39.860
+Things like the Record Button and the view that it is enclosed within.
+
+0:00:39.860,0:00:44.970
+Now, to center this button horizontally, what I will do is select the button and
+
+0:00:44.970,0:00:49.260
+then I will hold the Control Key down on my keyboard and
+
+0:00:49.260,0:00:53.800
+start dragging from the button in this direction, and let go.
+
+0:00:53.800,0:00:57.610
+And here I will select the option that says, Center Horizontally in Container.
+
+0:00:59.360,0:01:00.350
+Done.
+
+0:01:00.350,0:01:03.330
+To center vertically, I will hold the Control Key down on
+
+0:01:03.330,0:01:07.370
+my keyboard one more time and start dragging from my button in this direction,
+
+0:01:07.370,0:01:11.370
+and then select, Center Vertically in Container.
+
+0:01:11.370,0:01:12.830
+There.
+
+0:01:12.830,0:01:17.380
+Now, what we are doing here is adding something called constraints.
+
+0:01:17.380,0:01:22.850
+This is XCodes way of putting things at a precise location on your phone.
+
+0:01:22.850,0:01:27.220
+You can see here in the document outline that we have added two constraints.
+
+0:01:27.220,0:01:30.710
+A center x alignment, and a y alignment.
+
+0:01:30.710,0:01:31.302
+Okay.
+
+0:01:31.302,0:01:33.680
+So I'm going to go ahead and run my app and see if it worked.
+
+0:01:34.760,0:01:36.410
+It says, Stop Pitch Perfect?
+
+0:01:36.410,0:01:38.310
+Oh, the simulator is already running, so
+
+0:01:38.310,0:01:40.970
+I'll say Stop, and then it will restart it.
+
+0:01:40.970,0:01:43.200
+Aha, there is the Record Button.
+
+0:01:43.200,0:01:45.450
+This time in the center of the phone.
+
+0:01:45.450,0:01:48.530
+Now if for some reason I want to delete these constraints,
+
+0:01:48.530,0:01:52.120
+all I have to do is select them, and hit Delete on my keyboard.
+
+0:01:52.120,0:01:53.480
+There, gone.
+
+0:01:53.480,0:01:56.350
+Let me stop the app and run it one more time.
+
+0:01:56.350,0:01:59.360
+And we can see that the Record Button is not aligned anymore.
+
+0:01:59.360,0:02:01.980
+So I'm going to go back and add the constraints, but
+
+0:02:01.980,0:02:06.700
+this time, I will use this tiny button here at the bottom which says Align.
+
+0:02:06.700,0:02:10.597
+I will select the button, and then click on Align, and
+
+0:02:10.597,0:02:15.866
+say Horizontal Centering Container and Vertical Centering Container.
+
+0:02:15.866,0:02:18.170
+And then I will add the two constraints.
+
+0:02:18.170,0:02:21.360
+There. Let me stop the simulator and
+
+0:02:21.360,0:02:25.190
+run the app again, and boom, our button is in the center.

@@ -1,0 +1,35 @@
+0:00:00.280,0:00:02.410
+Let's go back to Oliver at this point.
+
+0:00:02.410,0:00:03.940
+He has another interview question for
+
+0:00:03.940,0:00:08.700
+us that may help make this image creation process a bit easier.
+
+0:00:08.700,0:00:11.816
+>> So one of the pain points of building an app is often that you
+
+0:00:11.816,0:00:15.720
+have to handle having 1x images, 2x and 3x, and it's a real pain.
+
+0:00:16.890,0:00:19.780
+So how can you make it easier on yourself by using vector images?
+
+0:00:21.000,0:00:23.860
+>> All right, I want you to think about this question for a bit.
+
+0:00:23.860,0:00:24.620
+There are some links in
+
+0:00:24.620,0:00:26.980
+the instructor notes that will help you get to the answer.
+
+0:00:28.020,0:00:30.030
+Here is your question one more time.
+
+0:00:30.030,0:00:32.830
+Share what you've learned with us on the discussion forum.
+
+0:00:32.830,0:00:35.920
+Check this box after you've read or submitted your response on the forum.

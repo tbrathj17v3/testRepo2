@@ -1,0 +1,53 @@
+0:00:00.510,0:00:02.270
+All right, before we end this lesson,
+
+0:00:02.270,0:00:08.540
+I want to think about where things like buttons and labels are coming from.
+
+0:00:08.540,0:00:13.190
+When we make apps for iOS, we can choose from one of many building blocks or
+
+0:00:13.190,0:00:15.720
+frameworks that are available to us.
+
+0:00:15.720,0:00:17.690
+One of these, is called UI Kit.
+
+0:00:17.690,0:00:18.850
+Let me bring it out.
+
+0:00:22.090,0:00:27.640
+Now you probably noticed that we imported this framework on the top of our code.
+
+0:00:27.640,0:00:32.229
+Inside UIKit, we have classes like UIView.
+
+0:00:32.229,0:00:35.180
+This helps us create a rectangular area on the phone,
+
+0:00:35.180,0:00:36.390
+where we can create content.
+
+0:00:37.420,0:00:41.580
+We also have another class called UIButton, this helps us make a button.
+
+0:00:42.800,0:00:46.400
+And finally we have another class called UILabel.
+
+0:00:46.400,0:00:48.660
+This helps us create labels.
+
+0:00:48.660,0:00:51.800
+There are a few links in the instructor notes that will give you a list of
+
+0:00:51.800,0:00:56.400
+all classes inside UIKit and the relationships between those classes.
+
+0:00:56.400,0:01:00.230
+This includes a helpful image, that lists out all the classes, and
+
+0:01:00.230,0:01:01.750
+how they are connected.
+
+0:01:01.750,0:01:03.570
+I encourage you to browse through those links now.

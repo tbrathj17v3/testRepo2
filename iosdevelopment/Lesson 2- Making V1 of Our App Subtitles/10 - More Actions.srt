@@ -1,0 +1,56 @@
+0:00:00.370,0:00:03.110
+That previous video, was really long.
+
+0:00:03.110,0:00:06.610
+Before we continue, I want to share with you this one question a lot of
+
+0:00:06.610,0:00:11.130
+students ask me, when I teach them programming, and that question is,
+
+0:00:11.130,0:00:13.180
+how did I learn all of this stuff?
+
+0:00:13.180,0:00:18.280
+Well, the true answer is, I searched for and read documentation.
+
+0:00:18.280,0:00:21.870
+I Googled for how to create an action, in Xcode.
+
+0:00:23.360,0:00:27.090
+And here, I landed on a help page created by Apple.
+
+0:00:27.090,0:00:31.730
+This page demonstrated how to make a connection between a button, and code.
+
+0:00:31.730,0:00:36.100
+So it is in this spirit of figuring out new things while reading documentation,
+
+0:00:36.100,0:00:37.970
+I want to present a couple of challenges to you,
+
+0:00:37.970,0:00:40.540
+that you can help find the answers for.
+
+0:00:40.540,0:00:42.040
+Your first question.
+
+0:00:42.040,0:00:44.380
+What does this tiny circle do?
+
+0:00:44.380,0:00:45.910
+You can find the circle.
+
+0:00:45.910,0:00:48.520
+Right next to the action, in the gutter.
+
+0:00:48.520,0:00:52.000
+And your second question, is what does this tiny icon do?
+
+0:00:52.000,0:00:54.320
+This icon is called Connections Inspector.
+
+0:00:54.320,0:00:56.770
+And you can find it in the Utility area.
+
+0:00:56.770,0:00:58.860
+You can enter your responses, in these boxes.

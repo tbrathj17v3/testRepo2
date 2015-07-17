@@ -1,0 +1,23 @@
+0:00:00.610,0:00:03.780
+All right, so we've added this label on our app, but
+
+0:00:03.780,0:00:05.660
+it is currently hidden at all times.
+
+0:00:07.268,0:00:10.300
+We want you program our app such that when the user presses on
+
+0:00:10.300,0:00:13.740
+the microphone button, we want this label to show up in the correct place.
+
+0:00:15.640,0:00:19.240
+To do this we have to create something called an outlet.
+
+0:00:19.240,0:00:24.170
+Now, before we understand what outlet means in iOS, I have a question for you.
+
+0:00:24.170,0:00:26.940
+What comes to mind when I say the word outlet?
+
+0:00:26.940,0:00:28.290
+Enter your responses in this box.
